@@ -1,0 +1,38 @@
+<resources xmlns:xliff="urm:oasis:names:tc:xliff:document:1.2">
+    <!-- Title for the application. {CHAR LIMIT=} -->
+    <string name="app_name">Just Java</string>
+
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="name">Name</string>
+
+    <!-- Header list for toppings {CHAR LIMIT=20} -->
+    <string name="toppings">Toppings</string>
+
+    <string name="whipped_cream">Whipped Cream</string>
+
+    <!-- chocolate string {CHAR LIMIT=NONE} -->
+    <string name="chocolate">Chocolate</string>
+
+    <string name="quantity">Quantity</string>
+
+    <string name="initial_quantity_value">2</string>
+
+    <string name="order">Order</string>
+
+    <!-- Name for the order summary. it will be shown in the format of "Name: Amy". Amy s the user name {CHAR LIMIT=NONE} -->
+    <string name="order_summary_name">Name: <xliff:g example="Amy" id="name">%s</xliff:g></string>
+
+    <string name="order_summary_whipped_cream">Add Whipped Cream? <xliff:g example="true" id="addWhippedCream">AddWhippedCream</xliff:g></string>
+
+    <string name="order_summary_chocolate">Add Chocolate? <xliff:g example="true" id="addChocolate"></xliff:g></string>
+
+    <string name="order_summary_quantity">Quantity? <xliff:g example="2" id="quantity"></xliff:g></string>
+
+    <string name="order_summary_price">Total <xliff:g example="$10" id="price"></xliff:g></string>
+
+    <!-- thank you message for order {CHAR LIMIT=NONE} -->
+    <string name="thank_you">Thank you!</string>
+
+    <string name="order_summary_email_subject">Just Java order for <xliff:g example="Selorm" id="name"></xliff:g></string>
+
+</resources>
